@@ -2,6 +2,8 @@
 
 # pwd
 
-ls -lh
+# ls -lh
 
+find /
 
+also give maxBuffer length exceeded : Rangeerror
