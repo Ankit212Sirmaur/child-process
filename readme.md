@@ -41,3 +41,12 @@ For long computation work use the chid process i.e frok
 Avoid to provide on main thread for long computaion work 
     ✅ => create a new process on separate thread using fork method
 ```
+
+-to check the load on server 
+
+```
+ npm i loadtest 
+ loadtest -n 10 -c 10 localhost:3000/one
+ loadtest -n 10 -c 10 localhost:3000/two
+ loadtest -n 10 -c 10 localhost:3000/three
+```
