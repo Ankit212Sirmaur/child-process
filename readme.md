@@ -33,3 +33,11 @@ const child = spawn('find', ['/']);
 
 const child = spawn('ls', [-lh']);
 ```
+
+- fork child process
+
+```
+For long computation work use the chid process i.e frok 
+Avoid to provide on main thread for long computaion work 
+    ✅ => create a new process on separate thread using fork method
+```
