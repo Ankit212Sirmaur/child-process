@@ -4,6 +4,6 @@
 
 # ls -lh
 
-find /
+# find /
 
-also give maxBuffer length exceeded : Rangeerror
+# also give maxBuffer length exceeded : Rangeerror
