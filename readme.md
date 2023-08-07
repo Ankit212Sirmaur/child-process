@@ -25,3 +25,11 @@ execFile(shellExecutable, [scriptPath], (error, stdout, stderr) => {
     console.log(`Script output: ${stdout}`);
 });
 ```
+
+- spawn command
+
+```
+const child = spawn('find', ['/']);
+
+const child = spawn('ls', [-lh']);
+```
